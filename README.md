@@ -78,3 +78,47 @@ print(Diccionario)
 
 ![image](https://github.com/user-attachments/assets/772aa911-1e06-4d75-b3d3-73ff7aaa2b4f)
 
+# Act.2
+
+print(" ")
+
+print("Edgar Gael Garcia Camacho 1182:Pract_4")
+
+print(" ")
+
+#Se crea un diccionario.
+
+Diccionario ={
+
+"Cama" : "Bed",
+
+"Comida" : "Food",
+
+"Lapíz" : "Pincel",
+
+"Manzana" : "Apple",
+
+"Galletas" : "Cookies",
+
+"Mano" : "Hand"
+
+}
+
+#Te solicita introducir una palabra para traducirla.
+
+Pal = str(input("Ingresa una palabra para traducirla :"))
+
+#Traduce la palabra seleccionada o te dice que la palabra no esta en el diccionario.
+
+if Pal in Diccionario:
+
+print(Diccionario[Pal])
+
+else:
+
+print("Esa palabra no esta en el diccionario.")
+
+![image](https://github.com/user-attachments/assets/6c9d35e7-16a7-4b19-8f69-d597e609425d)
+
+![image](https://github.com/user-attachments/assets/5eb91239-4885-4e2c-b6d3-bcdab0262eb8)
+
