@@ -1,0 +1,37 @@
+print(" ")
+
+print("Edgar Gael Garcia Camacho 1182:Pract_4")
+
+print(" ")
+
+#Se crea un diccionario.
+
+Diccionario ={
+
+"Cama" : "Bed",
+
+"Comida" : "Food",
+
+"Lapíz" : "Pincel",
+
+"Manzana" : "Apple",
+
+"Galletas" : "Cookies",
+
+"Mano" : "Hand"
+
+}
+
+#Te solicita introducir una palabra para traducirla.
+
+Pal = str(input("Ingresa una palabra para traducirla :"))
+
+#Traduce la palabra seleccionada o te dice que la palabra no esta en el diccionario.
+
+if Pal in Diccionario:
+
+print(Diccionario[Pal])
+
+else:
+
+print("Esa palabra no esta en el diccionario.")
